@@ -1,0 +1,17 @@
+git --version                                              || Comprobar version Git
+git init                                                   || Inicializar Git na carpeta
+git config --global user.name "Xhamu"                      || Configurar nome de Git na carpeta
+git config --global user.email "samuelgeminis5@gmail.com"  || Configurar email de Git na carpeta
+git config --list                                          || Comprobar a configuración creada no Git
+git status                                                 || Comprobar estado de actualización e modificacións da carpeta
+git add .                                                  || Actualizar repositorio
+git commit -m "coment"                                     || Añadir a repositorio local con un comentario
+git branch                                                 || Crear a rama master principal no repositorio remoto
+git branch -M main                                         || Cambiar nome de rama master a main
+git remote add id url_git                                  || Añadir un id á URL dada para subir as novas modificacións
+git remote                                                 || Comprobar nome de id
+git remote -v                                              || Comprobar url do id dado
+git remote set-url id NEW_url_git                          || Cambiar para unha nova URL a través do id
+git remote rename NEW_id OLD_id                            || Cambiar vello id por novo id
+git push -u id main                                        || Subir ao repositorio remoto as novas modficacións
+git log                                                    || Ver historial de cambios feitos no respositorio
